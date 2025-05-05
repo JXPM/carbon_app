@@ -1,5 +1,5 @@
-category,quantity
-electricity,0
-car,0
-food,0
-train,0
+category,quantity,month
+electricity,0,1
+car,0,1
+food,0,1
+train,0,1   

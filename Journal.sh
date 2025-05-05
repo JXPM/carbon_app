@@ -4,8 +4,8 @@ git init
 git branch -M main
 git add .
 git commit -m "first commit"
-gh repo create fingecwebsite --public
-git remote add origin https://github.com/JXPM/fingecwebsite.git
+gh repo create carbon_app --public
+git remote add origin https://github.com/JXPM/carbon_app.git
 git push --set-upstream origin main
 
 # Supprimer le fichier .env du suivi git

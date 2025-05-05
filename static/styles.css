@@ -1,6 +1,62 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #e3f2fd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-#results, #error {
+#results, #error, #loading {
     display: none;
+}
+#carbon-icon {
+    font-size: 1rem;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+#loading {
+    font-size: 1.1rem;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+footer {
+    border-top: 1px solid #ddd;
+    color: #6c757d;
+    margin-top: auto;
+}
+.dashboard-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.kpi-card {
+    padding: 10px;
+}
+.kpi-card h6 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+.kpi-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.kpi-card p {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+.col-md-8 .card {
+    min-height: 300px;
+}
+.col-md-4 .card {
+    min-height: 200px;
+}
+.filter-container {
+    max-width: 200px;
 }
